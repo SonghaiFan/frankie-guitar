@@ -2,6 +2,8 @@
 
 # Frankie Guitar
 
+[English](README.md) · [简体中文](README.zh-CN.md)
+
 Find a chord, compare its voicings, and see where the notes sit on the fretboard.
 
 [Guide](docs/guide.md) · [Run locally](#run-locally)
