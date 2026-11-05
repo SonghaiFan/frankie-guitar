@@ -1,0 +1,23 @@
+{
+  "title": "Guitar",
+  "tagline": "Find your next chord.",
+  "category": "Music / Chord explorer",
+  "layout": "screenshot",
+  "assets": [
+    {
+      "src": "assets/ui.png",
+      "fit": "contain",
+      "radius": 0
+    }
+  ],
+  "signature": "assets/frankie.svg",
+  "description": "Current Guitar interface showing C major controls and its fretboard.",
+  "provenance": [
+    {
+      "file": "assets/ui.png",
+      "kind": "verified current app material",
+      "note": "Approved live-UI preview from this session; current app was re-opened and checked against it.",
+      "captured_on": "2026-11-05"
+    }
+  ]
+}

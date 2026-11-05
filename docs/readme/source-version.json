@@ -1,0 +1,14 @@
+{
+  "repository": "frankie-guitar",
+  "source_commit": "9651069679e61d8f75916e335c36f03253bdb4f7",
+  "captured_on": "2026-11-05",
+  "source_state": "Current local working tree; existing uncommitted app edits were included where present.",
+  "materials": [
+    {
+      "file": "assets/ui.png",
+      "kind": "verified current app material",
+      "note": "Approved live-UI preview from this session; current app was re-opened and checked against it.",
+      "captured_on": "2026-11-05"
+    }
+  ]
+}
