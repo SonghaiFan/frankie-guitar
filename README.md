@@ -1,73 +1,38 @@
-![Frankie Guitar — current product banner](docs/readme/banner.png)
+![Frankie Guitar](docs/readme/banner.png)
 
 # Frankie Guitar
 
-A beautiful, wood-themed guitar chord finder application built with React, TypeScript, and Vite.
+Find a chord, compare its voicings, and see where the notes sit on the fretboard.
 
-## Features
+[Guide](docs/guide.md) · [Run locally](#run-locally)
 
-- **Chord Discovery**: Explore a vast library of chords by selecting root notes, qualities (Major, Minor, 7th, etc.), and bass notes (slash chords).
-- **Interactive Fretboard**: Visual representation of chord voicings on a realistic-looking guitar neck.
-- **Customizable Settings**:
-  - **Tunings**: Support for Standard, Drop D, Double Drop D, DADGAD, Open D, Open G, and Open E.
-  - **Capo**: Adjustable capo position (0-12 frets).
-  - **Left-Handed Mode**: Mirror the fretboard for left-handed players.
-- **Chord Variations**: Browse through multiple voicings for any given chord to find the one that fits your playing style.
-- **Scale Visualization**: Toggle "Show Scale" to see all available notes for the selected chord across the entire fretboard.
-- **Responsive Design**: Optimized for both desktop and mobile devices.
+## What it does
 
-## Getting started
+- Choose a root, chord quality and bass note, then browse available voicings.
+- Adjust tuning, capo and handedness to match your instrument.
+- Show chord notes, intervals and scale positions on the fretboard.
 
-### Prerequisites
+## Run locally
 
-- Node.js (v18 or higher recommended)
-- npm or yarn
+```sh
+npm ci
+npm run dev
+```
 
-### Installation
+Open the local URL printed by Vite.
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/SonghaiFan/frankie-guitar.git
-   cd frankie-guitar
-   ```
+## Before you start
 
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
+Tuning, capo and left-handed settings change how the fretboard is displayed. The project guide lists supported tunings, controls and source locations.
 
-3. Start the development server:
-   ```bash
-   npm run dev
-   ```
-
-4. Open your browser and navigate to `http://localhost:5173` (or the port shown in your terminal).
-
-## Project notes
-
-### Tech Stack
-
-- **Framework**: [React 19](https://react.dev/)
-- **Build Tool**: [Vite](https://vitejs.dev/)
-- **Language**: [TypeScript](https://www.typescriptlang.org/)
-- **Styling**: Tailwind CSS
-
-### Project Structure
-
-- `App.tsx`: Main application component.
-- `components/`: UI components (Fretboard, Controls, WoodGrain).
-- `utils/chordEngine.ts`: Logic for generating chord shapes and calculating intervals.
-- `constants.ts`: Definitions for chord types, tunings, and theme colors.
-- `types.ts`: TypeScript interfaces and type definitions.
-
-## Development
+## For developers
 
 ```sh
 npm run build
 ```
 
-Banner sources and update instructions: [README artwork](docs/readme/README.md).
+[Project guide](docs/guide.md) · [Artwork](docs/readme/README.md)
 
-## License
+---
 
-This project is licensed under the MIT License.
+Made by [Songhai Fan](https://github.com/SonghaiFan) · A Frankie project · [License notes](docs/guide.md#license)
