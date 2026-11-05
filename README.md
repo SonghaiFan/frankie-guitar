@@ -1,4 +1,4 @@
-# Guitar Chord Finder
+# Frankie Guitar
 
 A beautiful, wood-themed guitar chord finder application built with React, TypeScript, and Vite.
 
@@ -32,8 +32,8 @@ A beautiful, wood-themed guitar chord finder application built with React, TypeS
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/timber-chord-finder.git
-   cd timber-chord-finder
+   git clone https://github.com/SonghaiFan/frankie-guitar.git
+   cd frankie-guitar
    ```
 
 2. Install dependencies:
