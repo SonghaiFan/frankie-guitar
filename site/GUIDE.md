@@ -40,3 +40,8 @@ python3 -m http.server 8080 --directory _site --bind 127.0.0.1
 Open `/` and `/zh/`; verify all five buttons change the screenshot and fret readout, the selected button state, keyboard focus, images, app/source links and `#use` / `#start`. At 390px width check no horizontal overflow. / 检查双语、五按钮图像与品位同步、键盘焦点、链接及手机宽度无横向溢出。
 
 Push only reviewed intro files to `main`. The existing Pages workflow builds `_site/`. Keep the app’s Vercel deployment separate and exclude unrelated working-tree changes. / 只推送审核过的介绍页文件，GitHub Pages 工作流发布 `_site/`；Vercel 应用部署独立，勿包含无关代码。
+
+
+## Signature wordmark
+
+Use the approved `docs/readme/assets/frankie.svg` for the intro header, copied to `media/signature.svg`. Keep the product name separate; do not replace Frankie with a typed font. Guitar tints the SVG via a CSS mask to match the instrument palette. The app uses the identical approved `public/frankie-signature.svg`. Refresh screenshots if the visible app header changes.
