@@ -1,0 +1,65 @@
+{
+  "repository": "SonghaiFan/frankie-guitar",
+  "branch": "main",
+  "pages_url": "https://songhaifan.github.io/frankie-guitar/",
+  "kind": "online",
+  "app_url": "https://timber-chord-finder.vercel.app",
+  "vercel_project": "timber-chord-finder",
+  "accent": "#8b572e",
+  "tint": "#faf5ee",
+  "category": {
+    "en": "Music / Chords",
+    "zh": "音乐 / 和弦"
+  },
+  "steps": {
+    "en": [
+      "Choose a root note and chord quality.",
+      "Match tuning, capo and handedness to your guitar.",
+      "Compare voicings and inspect the fretboard."
+    ],
+    "zh": [
+      "选择根音与和弦类型。",
+      "按吉他设置调弦、变调夹和惯用手。",
+      "比较指型，查看指板。"
+    ]
+  },
+  "media": [
+    {
+      "src": "site/assets/chord.png",
+      "caption": {
+        "en": "Chord controls and fretboard, captured from the current app.",
+        "zh": "当前应用的和弦控件与指板。"
+      },
+      "captured_on": "2026-11-06"
+    },
+    {
+      "src": "site/assets/voicing.png",
+      "caption": {
+        "en": "Another voicing for the same C major chord.",
+        "zh": "同一个 C 大三和弦的另一个指型。"
+      },
+      "captured_on": "2026-11-06"
+    },
+    {
+      "src": "site/assets/setup.png",
+      "caption": {
+        "en": "Tuning, capo, notation, scale and left-handed setup.",
+        "zh": "调弦、变调夹、记谱、音阶与左手设置。"
+      },
+      "captured_on": "2026-11-06"
+    },
+    {
+      "src": "site/assets/demo.gif",
+      "caption": {
+        "en": "Recorded changes between real chord voicings.",
+        "zh": "实际录制的和弦指型切换。"
+      },
+      "captured_on": "2026-11-06",
+      "note": "Actual app frames; compressed and retimed for a short demonstration, not a performance measurement."
+    }
+  ],
+  "art_note": {
+    "en": "Current Guitar interface showing C major controls and its fretboard.",
+    "zh": "素材来自项目当前界面与原始资源。"
+  }
+}

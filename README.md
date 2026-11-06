@@ -6,7 +6,7 @@
 
 Find a chord, compare its voicings, and see where the notes sit on the fretboard.
 
-[Guide](docs/guide.md) · [Run locally](#run-locally)
+[Introduction](https://songhaifan.github.io/frankie-guitar/) · [Guide](docs/guide.md) · [Run locally](#run-locally)
 
 ## What it does
 

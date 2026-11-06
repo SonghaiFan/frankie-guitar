@@ -24,3 +24,6 @@ dist-ssr
 *.sw?
 
 Chord_Rocks_files
+
+# Standalone introduction build
+/_site/

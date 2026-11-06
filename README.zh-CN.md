@@ -6,7 +6,7 @@
 
 查找和弦，比较不同指型，查看音符在指板上的位置。
 
-[项目指南](docs/guide.md) · [本地运行](#本地运行)
+[介绍页](https://songhaifan.github.io/frankie-guitar/zh/) · [项目指南](docs/guide.md) · [本地运行](#本地运行)
 
 ## 可以做什么
 
