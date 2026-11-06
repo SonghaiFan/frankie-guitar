@@ -5,8 +5,8 @@
   "kind": "online",
   "app_url": "https://timber-chord-finder.vercel.app",
   "vercel_project": "timber-chord-finder",
-  "accent": "#8b572e",
-  "tint": "#faf5ee",
+  "accent": "#e6c190",
+  "tint": "#120c08",
   "category": {
     "en": "Music / Chords",
     "zh": "音乐 / 和弦"
@@ -61,5 +61,173 @@
   "art_note": {
     "en": "Current Guitar interface showing C major controls and its fretboard.",
     "zh": "素材来自项目当前界面与原始资源。"
+  },
+  "content": {
+    "en": {
+      "title": "One chord. More ways to play it.",
+      "intro": "Find guitar voicings, hear their notes, and connect familiar CAGED shapes across the fretboard.",
+      "category": "Interactive chord finder",
+      "open": "Open the chord finder",
+      "skip": "Skip to content",
+      "nav": "Page navigation",
+      "how": "How to use it",
+      "hero_alt": "Real Frankie Guitar interface with C major selected, chord variations on the left and its wood fretboard on the right.",
+      "hero_caption": "The actual app: C major, standard tuning, no capo.",
+      "features_title": "From a chord name to your fretboard",
+      "features": [
+        [
+          "Choose the harmony",
+          "Select a root and a chord quality, from major and minor to seventh, suspended and extended chords. The formula explains which intervals make the chord."
+        ],
+        [
+          "Compare the voicings",
+          "A voicing is one arrangement of a chord’s notes. Browse positions, read the six-string fret notation and hear a synthetic strum or individual notes."
+        ],
+        [
+          "Match your instrument",
+          "Choose a tuning preset and capo position, mirror the fretboard for left-handed playing, and choose sharp or flat note names."
+        ],
+        [
+          "See the notes around the shape",
+          "Add a scale reference, reveal the full chord-tone map, or switch note names to intervals. Explore how a selected chord sits inside the surrounding fretboard."
+        ]
+      ],
+      "caged_title": "CAGED: five shapes, one connected neck",
+      "caged_intro": "CAGED is named after the open C, A, G, E and D major chord shapes. Moving these forms along a standard-tuned guitar gives different positions for a chord. The shape name describes the fingering pattern, not necessarily the chord you hear.",
+      "caged_example": "For example, these five views all play C major: C, E and G. An A-shaped C chord is still C major. Choose a shape below to inspect its real app view and compare where the roots fall.",
+      "shape_word": "shape",
+      "shape_label": "Choose a recorded C major shape",
+      "shape_alt": "Recorded Frankie Guitar C major voicing; use the C A G E D buttons to compare shape positions.",
+      "demo_note": "These are screenshots of the real app, not a live fretboard. Read the fret numbers from low E to high E; x means a muted string and 0 means an open string. Open the app to hear and change the voicings.",
+      "theory_source": "Further reading on the five movable chord forms:",
+      "caged_limit": "In this app, a letter badge appears only when a generated voicing exactly matches a major CAGED pattern. Recognition requires standard tuning intervals (including uniformly lowered tunings). Alternate tunings and other chord qualities can still generate voicings without a CAGED badge.",
+      "workflow_title": "Try a useful first session",
+      "steps": [
+        [
+          "Start with C major",
+          "Keep Standard tuning and no capo. The formula 1–3–5 corresponds to C–E–G. Choose the first x 3 2 0 1 0 voicing."
+        ],
+        [
+          "Keep the chord, move the shape",
+          "Choose the A badge (x 3 5 5 5 3), then the E badge (8 10 10 9 8 8). The notes stay within C major while the register and arrangement change."
+        ],
+        [
+          "Listen and inspect",
+          "Press Play Chord for a synthetic strum. Tap a note on the board to hear it individually. Compare the root locations instead of memorizing only the outline."
+        ],
+        [
+          "Explore the setup",
+          "Open Setup. Try Major (Ionian) under Scale Reference, then Full Chord Map and Interval Labels. Change tuning or capo only when it matches the guitar you are using."
+        ]
+      ],
+      "gallery_title": "More of the real instrument",
+      "gallery": [
+        [
+          "scale-map.png",
+          "Setup: C major scale reference, full chord-tone map and interval labels, shown together."
+        ],
+        [
+          "setup.png",
+          "Instrument setup: tuning, capo, spelling, scale and left-handed orientation."
+        ]
+      ],
+      "runtime_title": "Use it online, or run it locally",
+      "runtime_heading": "No account or API key",
+      "runtime": "The chord search and audio synthesis run in the browser. The online app opens directly. For local use, install Node.js, then run these commands in the repository:",
+      "limits_heading": "What to expect",
+      "limits": [
+        "This is a chord explorer, not a microphone tuner or a course with scored exercises. Playback is synthesized audio, not a guitar recording.",
+        "The generator uses a bounded search and fret-span/finger-count heuristics. Results are useful candidates, not every possible fingering or a guarantee of physical comfort.",
+        "The capo shifts the effective tuning; chord names refer to sounding pitch. The app shows absolute physical fret positions on the board.",
+        "Changing or reloading the app resets the current controls; there is no saved practice library."
+      ],
+      "guide_title": "Keep the introduction in step with the app",
+      "guide": "The maintenance guide maps each screenshot and explanation to its source screen or code. Refresh those assets when controls, fretboard rendering or chord behavior changes.",
+      "guide_link": "Screenshot and content update guide",
+      "audit_link": "Code and research notes"
+    },
+    "zh": {
+      "title": "同一个和弦，更多种弹法。",
+      "intro": "寻找吉他和弦指型、聆听音符，用熟悉的 CAGED 形状连接整块指板。",
+      "category": "交互式吉他和弦查找器",
+      "open": "打开和弦查找器",
+      "skip": "跳至内容",
+      "nav": "页面导航",
+      "how": "使用方法",
+      "hero_alt": "真实 Frankie Guitar 界面：左侧为 C 大三和弦指型列表，右侧为木质指板。",
+      "hero_caption": "真实应用：C 大三和弦、标准调弦、无变调夹。",
+      "features_title": "把和弦名称变成指板上的位置",
+      "features": [
+        [
+          "选择和声",
+          "选择根音和和弦类型，包括大三、小三、七和弦、挂留与延伸和弦。和弦公式说明组成它的音程。"
+        ],
+        [
+          "比较不同指型",
+          "指型对应和弦音的一种排列。浏览不同把位、读取六弦品位记法，聆听合成扫弦或单个音符。"
+        ],
+        [
+          "匹配你的乐器",
+          "选择调弦预设与变调夹位置，切换左手指板方向，并按需要显示升号或降号。"
+        ],
+        [
+          "观察形状周围的音",
+          "叠加音阶参考，显示全部和弦音位置，或把音名换成音程。查看所选和弦与周围指板的关系。"
+        ]
+      ],
+      "caged_title": "CAGED：五个形状，连起整块指板",
+      "caged_intro": "CAGED 得名于开放把位的 C、A、G、E、D 五种大三和弦形状。在标准调弦下移动这些形状，可以在不同把位弹奏和弦。形状名称描述指法结构，不一定等于实际发声的和弦名称。",
+      "caged_example": "例如，下方五个画面弹的都是 C 大三和弦，组成音都是 C、E、G。A 形状的 C 和弦仍然是 C 大三和弦。选择一个形状，查看应用真实界面，并比较根音位置。",
+      "shape_word": "形状",
+      "shape_label": "选择录制的 C 大三和弦形状",
+      "shape_alt": "真实 Frankie Guitar C 大三和弦指型截图，可用 C A G E D 按钮比较把位。",
+      "demo_note": "这些是真实应用截图，并非实时指板。品位数字从低音 E 弦读到高音 E 弦；x 表示不发声，0 表示空弦。打开应用即可试听和切换指型。",
+      "theory_source": "关于五种可移动和弦形状的延伸阅读：",
+      "caged_limit": "应用只会给严格匹配大三和弦 CAGED 模式的指型显示字母标记。识别要求标准调弦的弦间音程（整体降调也适用）。其他调弦或和弦类型仍可生成指型，但不一定带有 CAGED 标记。",
+      "workflow_title": "从一次具体练习开始",
+      "steps": [
+        [
+          "从 C 大三和弦开始",
+          "保留 Standard 调弦，不使用变调夹。公式 1–3–5 对应 C–E–G。先选择 x 3 2 0 1 0 指型。"
+        ],
+        [
+          "保留和弦，移动形状",
+          "选择 A 标记的 x 3 5 5 5 3，再选择 E 标记的 8 10 10 9 8 8。音符仍属于 C 大三和弦，但音区和排列发生变化。"
+        ],
+        [
+          "聆听并观察",
+          "点击 Play Chord 试听合成扫弦，点击指板音符单独发声。比较根音在哪里，而不只记住形状轮廓。"
+        ],
+        [
+          "探索设置",
+          "打开 Setup，选择 Major (Ionian) 音阶参考，再启用 Full Chord Map 和 Interval Labels。调弦和变调夹位置应与实际乐器相符。"
+        ]
+      ],
+      "gallery_title": "真实应用的更多细节",
+      "gallery": [
+        [
+          "scale-map.png",
+          "设置界面：同时显示 C 大调音阶参考、全部和弦音与音程标签。"
+        ],
+        [
+          "setup.png",
+          "乐器设置：调弦、变调夹、音名拼写、音阶与左手方向。"
+        ]
+      ],
+      "runtime_title": "在线使用，也可以本地运行",
+      "runtime_heading": "无需账户或 API key",
+      "runtime": "和弦搜索与声音合成都在浏览器运行。在线应用可直接打开。本地使用先安装 Node.js，再在仓库目录执行：",
+      "limits_heading": "使用范围与限制",
+      "limits": [
+        "这是和弦探索工具，不是通过麦克风识音的调音器，也不是带评分练习的课程。播放为合成音，不是吉他录音。",
+        "生成器使用有限搜索、品位跨度与手指数等启发式规则。结果是参考指型，并不覆盖所有弹法，也不保证每个指型都适合你的手。",
+        "变调夹会改变有效调弦，和弦名称表示实际发声音高；指板显示实际物理品位。",
+        "刷新应用会重置当前控件，没有保存练习库。"
+      ],
+      "guide_title": "让介绍页跟上应用的变化",
+      "guide": "维护指南把每张截图与说明对应到实际页面或代码。控件、指板渲染或和弦行为变化后，更新相应素材与说明。",
+      "guide_link": "截图与内容更新指南",
+      "audit_link": "代码与研究记录"
+    }
   }
 }
