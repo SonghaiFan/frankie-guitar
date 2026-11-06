@@ -56,8 +56,8 @@ const App: React.FC = () => {
       <WoodGrain />
 
       {/* Footer Credit */}
-      <div className="absolute bottom-2 right-4 z-50 text-[10px] text-[#c29b6d]/40 font-mono pointer-events-none select-none">
-        Made by Songhai Fan
+      <div className="absolute bottom-2 right-4 z-50 text-[10px] text-[#c29b6d]/40 font-mono select-none">
+<a href="https://songhaifan.github.io/frankie-guitar/" aria-label="About Frankie guitar" style={{ display: "inline-flex", alignItems: "center", padding: "6px", color: "inherit",  }}><span aria-hidden="true" style={{ display: "block", width: 76, height: 26, backgroundColor: "currentColor", mask: "url(/frankie-signature.svg) center / contain no-repeat", WebkitMask: "url(/frankie-signature.svg) center / contain no-repeat" }} /></a>
       </div>
 
       {/* Main Container */}
